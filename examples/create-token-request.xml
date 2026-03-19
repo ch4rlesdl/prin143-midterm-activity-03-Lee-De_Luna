@@ -1,8 +1,11 @@
-<CreateTokenRequest xmlns="https://www.example.com">
+<?xml version="1.0" encoding="utf-8"?>
+<CreateTokenRequest xmlns="https://www.example.com"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="https://www.example.com ../schemas/create-token-request.xsd">
     <CreditCard>
-        <Account>200</Account>
+        <Account>8473629152047683</Account>
         <CardHolderName>Hiromi Higuruma</CardHolderName>
         <ExpirationMonth>4</ExpirationMonth>
-        <ExpirationYear>3000</ExpirationYear>
+        <ExpirationYear>2999</ExpirationYear>
     </CreditCard>
 </CreateTokenRequest>
